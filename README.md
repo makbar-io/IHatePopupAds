@@ -1,6 +1,3 @@
-# IHatePopupAds
- blocks internet ads at your router, removing bandwidth-sucking and privacy-invading ads from your whole network.
-
 # Pi-hole
 
 Pi-hole is a network-wide ad blocker that acts as a DNS sinkhole, blocking ads and tracking domains for all devices on your network.
@@ -21,23 +18,24 @@ Before setting up Pi-hole, ensure that you have the following:
 
 ### 1. Update your system
 Make sure your system is up-to-date by running:
+
 ```bash
 sudo apt update && sudo apt upgrade -y
 
-
-2. Install Pi-hole
+### 2. Install Pi-hole
 Run the following command to install Pi-hole:
 
 bash
 Copy
 Edit
 curl -sSL https://install.pi-hole.net | bash
-3. Follow the on-screen prompts
+
+### 3. Follow the on-screen prompts
 The installation process will guide you through setting up Pi-hole, including selecting an upstream DNS provider and configuring your network.
 
 <!-- Replace with your image -->
 
-4. Configure your router
+### 4. Configure your router
 To ensure that all devices on your network use Pi-hole, configure your router to use the Pi-hole IP address as the DNS server.
 
 <!-- Replace with your image -->
