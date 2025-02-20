@@ -20,7 +20,7 @@ Before setting up Pi-hole, ensure that you have the following:
 Make sure your system is up-to-date by running:
 
 
-```bash sudo apt update && sudo apt upgrade -y ```bash
+``` sudo apt update && sudo apt upgrade -y ```
 
 ### 2. Install Pi-hole
 Run the following command to install Pi-hole:
@@ -28,7 +28,7 @@ Run the following command to install Pi-hole:
 bash
 Copy
 Edit
-```bash curl -sSL https://install.pi-hole.net | bash ```bash
+``` curl -sSL https://install.pi-hole.net | bash ```
 
 ### 3. Follow the on-screen prompts
 The installation process will guide you through setting up Pi-hole, including selecting an upstream DNS provider and configuring your network.
@@ -44,7 +44,7 @@ Once Pi-hole is installed, you can access the Pi-hole admin interface via a web 
 bash
 Copy
 Edit
-```bash http://<pi-hole-ip>/admin ```bash
+``` http://<pi-hole-ip>/admin ```
 Use the credentials provided during installation to log in.
 
 <!-- Replace with your image -->
